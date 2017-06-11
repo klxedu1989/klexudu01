@@ -1,0 +1,963 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="text/css" href="#">
+    <title>小精灵儿童网站</title>
+    <style type="text/css">
+        .carousel{
+                width: 300px;
+                height: 325px;
+                margin:0 auto;
+                position: absolute;
+                left:350px;
+                top:0px ;
+                overflow: hidden;
+            }
+            #ul1{
+                position: absolute;
+                float: left;
+            }
+            #ul1 li{
+                width: 300px;
+                height:325px; 
+                float: left;
+            }
+            #ol1{
+                position: absolute;
+                float: left;
+                width: 300px;
+                height: 34px;
+                padding-left: 200px;
+                left: 0;
+                bottom: -15px;
+                background-color: rgba(0,0,0,0.5);
+            }
+            #ol1 li{
+                float: left;
+                width: 8px;
+                height: 8px;
+                margin-top: 10px;
+                margin-left: 8px;
+                border:1px solid #fff;
+                border-radius: 50%;
+            }
+            #ol1 li.active{
+                background-color: white;
+            }
+            .foot{
+                position: absolute;
+                height: 20px;
+                width: 100%;
+                float: left;
+                top:130px;
+            }
+            .foot a{
+                color: #ccc;
+                font-size: 50px;
+                font-weight: bolder;
+                opacity: 0.8;
+            }
+            #prev{
+                float: left;
+                margin-left: 10px;
+            }
+            #next{
+                float: right;
+                margin-right: 10px;
+            }
+    </style>
+    <link rel="stylesheet" href="./css/xiaojingling-hua.css">
+    <link rel="stylesheet" href="./css/barry.css">
+    <link rel="stylesheet" type="text/css" href="./css/xiangmu.css">
+    <script src="bootstrap/js/jquery-3.1.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/xiaojingling-hua.js"></script> 
+    <script src="./js/barry.js"></script> 
+   <script>       
+   </script>    
+</head>
+<body>
+    <!-- 页眉 -->
+    <header >
+        <div class="top">
+            <div class="top-line">
+                <a href="javascript:;" class="first">网站首页</a>
+                <a href="javascript:;">手机版</a>
+                <a href="javascript:;" class="text">你好，欢迎光临小精灵儿童网站！</a>
+                <a href="javascript:;" class="tunnel">频道▽</a>
+                <a href="javascript:;" class="send">投稿▽</a>
+                <a href="javascript:;">设为首页</a>
+                <a href="javascript:;">加入收藏</a>
+            </div>
+            <ul class="tunnel1">
+                <li><a href="javascript:;">动画频道</a></li>
+                <li><a href="javascript:;">儿童频道</a></li>
+                <li><a href="javascript:;">育儿频道</a></li>
+                <li><a href="javascript:;">幼教频道</a></li>
+                <li><a href="javascript:;">小教频道</a></li>
+                <li><a href="javascript:;">动态频道</a></li>
+            </ul>
+            <ul class="send1">
+                <li><a href="javascript:;">儿童作品</a></li>
+                <li><a href="javascript:;">幼教作品</a></li>
+                <li><a href="javascript:;">小教作品</a></li>
+                <li><a href="javascript:;">育儿作品</a></li>
+                <li><a href="javascript:;">动态资讯</a></li>
+            </ul>
+        </div>   
+        <div class="top-replace"></div>   
+        <div class="nav">
+            <div class="nav1">
+                <div class="icon">
+                     <a href="javascript:;">缩进</a>
+                </div>
+                <h2>儿童网站</h2>
+                <ul>
+                    <li class="movie1"><a href="./online/yule.html">左移</a></li>
+                    <li class="movie2"><a href="./online/quannau.html">左移</a></li>
+                    <li class="movie3"><a href="./online/0-3sui.html">左移</a></li>
+                    <li class="movie4"><a href="./online/3-6sui.html">左移</a></li>
+                    <li class="movie5"><a href="./online/6-12sui.html">左移</a></li>
+                    <li class="movie6"><a href="./kepu.html">左移</a></li>
+                </ul>
+                <div class="header-middle-right flex141 clearfix">
+                    <a href="./yule.html" class="dh-title dh fl"></a>
+                    <a href="./quannau.html" class="dh-title et fl"></a>
+                    <a href="./0-3sui.html" class="dh-title ye fl"></a>
+                    <a href="./3-6sui.html" class="dh-title yj fl"></a>
+                    <a href="./6-12sui.html" class="dh-title xj fl"></a>
+                    <a href="./kepu.html" class="dh-title dt fl"></a>
+                </div>
+            </div>
+            <div class="nav2">
+                <a href="./online/0-3sui.html" class="baby">0-3岁</a>
+                <a href="./online/3-6sui.html">3-6岁</a>
+                <a href="./online/6-12sui.html">6-12岁</a>
+                <a href="./online/quannau.html">全脑</a>
+                <a href="./online/dongshou.html">动手</a>
+                <a href="./online/kepu.html">科普</a>
+                <a href="./online/yule.html">娱乐</a>
+                <a href="./online/online.html">学习</a>
+                <form action="1.php" method="get">
+                    <img src="images/1.png">
+                    <input type="text" name="search" class="search">
+                    <input type="button" value="搜索" class="btn">
+                </form>
+            </div>
+        </div>   
+    </header>
+    <section >
+        <div class="section-first">
+            <div class="composition">
+                <div class="left">
+                    <a href="javascript:;"><h3>[作文]我和孙悟空一起遨游太空</h3></a>
+                    <a href="javascript:;" class="story">[转载][故事]牡丹</a>
+                    <em>位置</em>
+                    <span></span>
+                    <a href="javascript:;" class="story">[转载][故事]小</a>
+                    <em>安徒生</em>
+
+                    <a href="javascript:;"><h3>“倒数的认识”教学设计</h3></a>
+                    <a href="javascript:;" class="story">“比的意义”练习题</a>
+                    <span></span>
+                    <a href="javascript:;" class="story">[小学教案]“比的基本性</a>
+
+                    <a href="javascript:;"><h3>怀孕困难不一定是不孕不育</h3></a>
+                    <a href="javascript:;" class="story">夜班或增加女性不孕风险</a>
+                    <span></span>
+                    <a href="javascript:;" class="story">男性选错内裤也致不育</a>
+
+                    <a href="javascript:;"><h3>永安小学开展防震逃生演练活动</h3></a>
+                    <a href="javascript:;" class="story">永安小学开展“劳动最光</a>
+                    <span></span>
+                    <a href="javascript:;" class="story">西乡塘区均衡发展督导组</a>
+
+                    <ul>
+                        <li><a href="javascript:">盘点不孕不育元凶级食物</a></li>
+                        <li><a href="javascript:">肺结核可能会导致不孕不育</a></li>
+                        <li><a href="javascript:">女性警惕7种不孕前兆</a></li>
+                    </ul>
+                </div>
+                <div class="carousel">
+                    <ul id="ul1">
+                        <li ><a href="javascript:;"><img src="./images/in5.jpg"></a></li>
+                        <li><a href="javascript:;"><img src="./images/in1.jpg"></a></li>
+                        <li><a href="javascript:;"><img src="./images/in2.jpg"></a></li>
+                        <li><a href="javascript:;"><img src="./images/in3.jpg"></a></li>
+                        <li><a href="javascript:;"><img src="./images/in4.jpg"></a></li>
+                        <li><a href="javascript:;"><img src="./images/in5.jpg"></a></li>
+                        <li><a href="javascript:;"><img src="./images/in1.jpg"></a></li>
+                    </ul>
+                    <ol id="ol1">
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                    <div class="foot">
+                        <a href="javascript:;" id="prev">&lt;</a>
+                        <a href="javascript:;" id="next">&gt;</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <ul class="clear-fix">
+                        <div class="rotate">
+                            <li class="child1 child11 child7 fl"><a href="javascript:;">缩进</a></li>
+                            <li class="child1-replace child8 child12 fl"><div class="child-composition"><a href="javascript:;">儿童作品</a></div><div class="online"><a href="javascript:;">在线投稿</a><a href="javascript:;">儿童作品</a><a href="javascript:;">作者介绍</a><a href="javascript:;">写作技巧</a></div></li>
+                        </div>
+
+                        <div class="rotate">
+                            <li class="child2 child7 fr"><a href="javascript:;">缩进</a></li>
+                            <li class="child1-replace child8 child9 child2-replace child3-replace fl"><div class="child-composition"><a href="javascript:;">儿童专题</a></div><div class="online online1"><a href="javascript:;">孟笔</a><a href="javascript:;">范言斌</a><a href="javascript:;">歌谱</a><a href="javascript:;">彭野</a><a href="javascript:;">伴奏</a><a href="javascript:;">动画</a></div></li>
+                        </div>
+
+                        <div class="rotate">
+                            <li class="child3 child7 fl"><a href="javascript:;">缩进</a></li>
+                            <li class="child1-replace child8 child10 child2-replace fl"><div class="child-composition"><a href="javascript:;">学习专题</a></div><div class="online"><a href="javascript:;">小学数学</a><a href="javascript:;">数学口算</a><a href="javascript:;">汉语拼音</a><a href="javascript:;">电子课本</a></li>
+                        </div>
+
+                        <div class="rotate">
+                            <li class="child4 child7 fr"><a href="javascript:;">缩进</a></li>
+                            <li class="child1-replace child8 child3-replace child15 fl"><div class="child-composition"><a href="javascript:;">英语专题</a></div><div class="online"><a href="javascript:;">背单词</a><a href="javascript:;">听力练习</a><a href="javascript:;">学字母</a><a href="javascript:;">英语课件</a></div></li>
+                        </div>
+                    </ul>
+
+                    <ul class="children-language clear-fix">
+                        <li class="cyan"><a href="javascript:;">幼儿语言</a></li>
+                        <li><a href="javascript:;">后母养成</a></li>
+                        <li><a href="javascript:;">正确阅读</a></li>
+                        <li class="cyan"><a href="javascript:;">疯狂六一</a></li>
+                        </br>
+                        <li class="cyan"><a href="javascript:;">小学古诗</a></li>
+                        <li><a href="javascript:;">古诗文大全</a></li>
+                        <li><a href="javascript:;">家庭教育</a></li>
+                        <li><a href="javascript:;">更多专题</a></li>
+                    </ul>
+                                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="er">
+        <div class="box second clear-fix">
+            <div class="smalltitle clear-fix">
+                <div class="smalltitle-left fl" style="border-left:5px solid #ea5550"></div>
+                <a href="javascript:;" class="fl title" style="color:#ea5550">儿童</a>
+                <em class="fl">Children</em>
+                <div class="smalltitle-middle fl">
+                    <a href="javascript:;"  style="color:#ea5550">娱乐</a>
+                    <a href="javascript:;" style="color:#ea5550">学习</a>
+                    <a href="javascript:;" style="color:#ea5550">科普</a>
+                    <a href="javascript:;" style="color:#ea5550">动手</a>
+                </div>
+                <span class="fr">
+                    <a href="javascript:;" style="color:#ea5550">更多</a>
+                    <span>&gt;&gt;</span>
+                </span>
+            </div>
+            <div class="space-20" style="border-top:5px solid #ea5550"></div>
+            <ul class="content-left fl">
+                <li>
+                    <a href="javascript:;" class="dt" style="color:#ea5550">[作文]《庆兔兔日记》1969火星上</a>
+                    <ul>
+                        <li><a href="javascript:;"><span></span>[作文]我的妈妈</a></li>
+                        <li><a href="javascript:;"><span></span>[作文]我的爷爷</a></li>
+                        <li><a href="javascript:;"><span></span>[作文]我家的小狗</a></li>
+                        <li><a href="javascript:;"><span></span>[作文]我的老师</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dt" style="color:#ea5550">[作文]我和孙悟空一起遨游太空</a>
+                    <em>伍梓缘</em>
+                    <ul>
+                        <li><a href="javascript:;"><span></span>[作文]我的爷爷</a> <em>尹晨希</em></li>
+                        
+                        <li><a href="javascript:;"><span></span>[作文]我的妈妈</a> <em>尹晨希</em></li>
+
+                        <li><a href="javascript:;"><span></span>[作文]鸽子</a> <em>尹晨希</em></li>
+
+                        <li><a href="javascript:;"><span></span>[作文]小“老鼠”弟弟</a> <em>尹晨希</em></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dt dt-black">葫芦娃大战奥特曼 第六集《地球的危机》</a>
+                    <ul>
+                        <li><a href="javascript:;"><span></span>儿童双语伊索寓言 挤牛奶的姑娘</a></li>
+                        <li><a href="javascript:;"><span></span>儿童双语伊索寓言 号兵</a></li>
+                        <li><a href="javascript:;"><span></span>儿童双语幽默故事 我不喜欢她</a></li>
+                        <li><a href="javascript:;"><span></span>儿童双语幽默故事 安眠药 Sleeping Pills</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dt dt-black">小精灵儿童网“速算24”手机应用</a>
+                    <ul>
+                        <li><a href="javascript:;"><span></span>适合所有年龄 儿童公主刮</a></li>
+                        <li><a href="javascript:;"><span></span>一款音乐播放的免费软件 儿童音乐</a></li>
+                        <li><a href="javascript:;"><span></span>围棋入门 第八课 打劫【新手完整版】</a></li>
+                        <li><a href="javascript:;"><span></span>棋局规则</a></li>
+                    </ul>
+                </li>   
+            </ul>
+            <div class="content-right content-right-2 clear-fix fr ">
+                <div class="content-right-top clear-fix">
+                    <div class=" content-right-top-2  fl">
+                        <div class="zuoyi clear-fix">
+                            <a href="javascript:;"><img src="images/dszl1.jpg" alt=""></a>
+                            <div class="slide1">全脑开发</br><i>  全脑开发栏目各年龄段儿童的智力开发，敬请关注！</i>
+                            </div>
+                        </div>
+                        <div class="zuoyi">
+                            <a href="javascript:;"><img src="images/dszl2.jpg" alt=""></a>
+                            <div class="slide1">全脑开发</br><i>  全脑开发栏目各年龄段儿童的智力开发，敬请关注！</i>
+                            </div>
+                            <div class="slide1">亲自动手<i>自己动手做手工，可提高各种动手能力，快来看试试。</i></div>
+                        </div>                                   
+                    </div>
+                    <ul class="content-right-top-r fr">
+                        <li class="jiaoan jiaoan1 first clear-fix" style="border-bottom:0px">
+                            <a href="javascript:;" class="a-img"><img src="images/dt53a.jpg" alt="">
+                            </a>
+                            <a href="javascript:;" class="fr a-w a-s"> 宝宝与宠物的共存之道 </a>
+                            <b class="fr">专题</b>
+                            <span> 漂亮可爱的小动物总是会对小朋友们产生独特的吸引力，无论孩子有多么多么的喜欢小动物，但家长们总是会考虑到孩子过敏、宠物会弄伤宝宝等... </span>
+                        </li>
+                        <li class="jiaoan jiaoan2 clear-fix" style="border-bottom:0px;padding: 0">
+                            <a href="javascript:;" style="color:#ea5550;">[儿歌]</a><a href="javascript:;">小兔乖乖</a><a href="javascript:;">数鸭子</a><a href="javascript:;">拔萝卜</a><a href="javascript:;">小手拍</a>
+                            <em><a href="javascript:;">更多>></a></em>
+
+                             <a href="javascript:;" style="color: #00ab84">[故事]</a><a href="javascript:;">爱美的小鸡</a><a href="javascript:;">丑小鸭</a><a href="javascript:;" style="color:#ea5550;">连环画在线</a>
+                            <em><a href="javascript:;">&nbsp;更多>></a></em>
+
+                             <a href="javascript:;" style="color:#ea5550;">[科普]</a><a href="javascript:;">能做香水的植物</a><a href="javascript:;">铁一样的蚬木</a>
+                            <em><a href="javascript:;">&nbsp;&nbsp;&nbsp;更多>></a></em>
+
+                             <a href="javascript:;" style="color: #00ab84">[游戏]</a><a href="javascript:;">儿童填图</a><a href="javascript:;">小猫钓鱼</a><a href="javascript:;">大头做蛋糕</a>
+                            <em><a href="javascript:;">&nbsp;&nbsp;更多>></a></em>
+
+                             <a href="javascript:;" style="color:#ea5550;">[学习]</a><a href="javascript:;">10以内数练一练</a><a href="javascript:;">数：1-5的认识</a>
+                        </li>
+                                                 
+                    </ul>
+                </div>
+                <div class="content-right-bottom clear-fix">
+                    <div class="study clear-fix">
+                        <h3 class="fl"><a href="javascript:;">在线学习</a></h3>
+                        <a href="javascript" class="fl">0-6岁</a>
+                        <a href="javascript" class="fl">7-13岁</a>
+                        <a href="javascript" class="fr">更多>></a>
+                    </div>
+                    <div class="write">
+                        <ul class="clear-fix">
+                            <li class="fl" style="width: 78px;background-color: #80d5c2"><a href="javascript:;">写作</a></li>
+                            <li class="fl"><a href="javascript:;" style="width: 78px;background-color: #00ab84">阅读</a></li>
+                            <li class="fl"><a href="javascript:;" style="width: 158px;background-color: #ea5550">在线口算</a></li>
+                            <li class="fl"><a href="javascript:;" style="width: 78px;background-color: #80d5c2">背单词</a></li>
+                            <li class="fl"><a href="javascript:;" style="width: 78px;background-color: #4dc4a9">练习题</a></li>
+                            <li class="fl"><a href="javascript:;" style="width: 158px;background-color: #ea5550">其他习题</a></li>
+                            <li class="fl"><a href="javascript:;" style="width: 78px;background-color: #00ab84">在线习题</a></li>
+                            <li class="fl"><a href="javascript:;" style="width: 78px;background-color: #00ab84">语文课件</a></li>
+                            <li class="fl"><a href="javascript:;" style="width: 78px;background-color: #ea5550">数学课件</a></li>
+                            <li class="fl"><a href="javascript:;" style="width: 78px;background-color: #f08884">应用题</a></li>
+                            <li class="fl"><a href="javascript:;" style="width: 158px;background-color: #4dc4a9">英语同步课件</a></li>
+                            <li class="fl"><a href="javascript:;" style="width: 78px;background-color: #f08884">音乐</a></li>
+                            <li class="fl"><a href="javascript:;" style="width: 78px;background-color: #ea5550">其他</a></li>
+                        </ul>
+                        <div class="chinese">
+                            <ul class="clear-fix">
+                                <li class="fl"><a href="javascript:;"><img src="./images/jx01.jpg"></a></li>
+                                <li class="fl"><a href="javascript:;"><img src="./images/jx02.jpg"></a></li>
+                                <li class="fl"><a href="javascript:;"><img src="./images/jx03.jpg"></a></li>
+                                <li class="fr"><a href="javascript:;"><img src="./images/jx04.jpg"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                                
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="jiaoxue">
+        <div class="box clear-fix">
+            <div class="smalltitle clear-fix">
+                <div class="smalltitle-left fl"></div>
+                <a href="javascript:;" class="fl title">教学</a>
+                <em class="fl">Teaching</em>
+                <div class="smalltitle-middle fl">
+                    <a href="javascript:;">幼儿教案</a>
+                    <a href="javascript:;">幼小衔接</a>
+                    <a href="javascript:;">小学教案</a>
+                    <a href="javascript:;">小学试题</a>
+                </div>
+                <span class="fr">
+                    <a href="javascript:;">更多</a>
+                    <span>&gt;&gt;</span>
+                </span>
+            </div>
+            <div class="space-20"></div>
+            <ul class="content-left fl">
+                <li>
+                    <a href="javascript:;" class="dt">“百分数与小数的互化”教学反思</a>
+                    <ul>
+                        <li><a href="javascript:;"><span></span>浅谈三年级学生起步作文教学策略</a></li>
+                        <li><a href="javascript:;"><span></span>如何才能学好英语 死记硬背行不通</a></li>
+                        <li><a href="javascript:;"><span></span>如何改善孩子预习习惯达到预想效果</a></li>
+                        <li><a href="javascript:;"><span></span>小学一年级上学期一单元练习</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dt">大班综合《逃家小兔》教案与反思</a>
+                    <ul>
+                        <li><a href="javascript:;"><span></span>大班诗歌《云彩和风儿》教案和说课</a></li>
+                        <li><a href="javascript:;"><span></span>大班语言《妈妈》教案与反思</a></li>
+                        <li><a href="javascript:;"><span></span>儿童英语启蒙到底从哪里开始</a></li>
+                        <li><a href="javascript:;"><span></span>通过环境创设培养幼儿自主阅读能力</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dt dt-black">苏教版四年级数学上册第二单元角的综合测</a>
+                    <ul>
+                        <li><a href="javascript:;"><span></span>人教新课标版语文小学四年级上册期中测试</a></li>
+                        <li><a href="javascript:;"><span></span>人教新课标版语文四年级上册期中测试卷</a></li>
+                        <li><a href="javascript:;"><span></span>浅谈三年级学生起步作文教学策略</a></li>
+                        <li><a href="javascript:;"><span></span>浅探以围棋辅助小学低年级数学教学策略</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dt dt-black">“倒数的认识”教学设计</a>
+                    <ul>
+                        <li><a href="javascript:;"><span></span>“比的意义”练习题</a></li>
+                        <li><a href="javascript:;"><span></span>[小学教案]“比的基本性质”教学设计</a></li>
+                        <li><a href="javascript:;"><span></span>如何改善孩子预习习惯达到预想效果</a></li>
+                        <li><a href="javascript:;"><span></span>幼师如何调控幼儿注意力</a></li>
+                    </ul>
+                </li>   
+            </ul>
+            <div class="content-right fr ">
+                <div class="content-right-top clear-fix">
+                    <div class="content-right-top-l fl">
+                        <div class="zuoyi">
+                            <a href="javascript:;"><img src="images/yw01.jpg" alt=""></a>
+                        </div>
+                        <div class="s-imgBox clear-fix">
+                            <div class="s-imgBox-l fl">
+                                <div class="s">
+                                    <a href="javascript:;" class="img-a"><img src="images/2dd.jpg" alt=""></a>
+                                    <a href="javascript:;" class="img-w">小学数学教案</a>
+                                </div>
+                            </div>
+                            <div class="s-imgBox-r fr">
+                                <div class="s">
+                                    <a href="javascript:;" class="img-a"><img src="images/3dd.jpg" alt=""></a>
+                                    <a href="javascript:;" class="img-w">小学英语教案</a>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <ul class="content-right-top-r fr">
+                        <li class="jiaoan first clear-fix">
+                            <a href="javascript:;" class="a-img"><img src="images/1cc.jpg" alt="">
+                            </a>
+                            <a href="javascript:;" class="fr a-w">幼儿园小班教案</a>
+                            <b class="fr">日期：2017-04-17</b>
+                            <span>包括幼儿园小班科学教案、律动教案、美工教案、美术教案、亲子教案等小班教案...</span>
+                        </li>
+                        <li class="jiaoan clear-fix">
+                            <a href="javascript:;" class="a-img"><img src="images/2cc.jpg" alt=""></a>
+                            <a href="javascript:;" class="fr a-w">幼儿园中班教案</a>
+                            <b class="fr">日期：2017-04-17</b>
+                            <span>包括幼儿园中班故事教案、绘画教案、活动教案、健康教案、整合教案等小班教案...</span>
+                        </li>
+                        <li class="jiaoan last clear-fix">
+                            <a href="javascript:;" class="a-img"><img src="images/3cc.jpg" alt="">
+                            </a>
+                            <a href="javascript:;" class="fr a-w">幼儿园大班教案</a>
+                            <b class="fr">日期：2017-04-17</b>
+                            <span>包括幼儿园大班安全教案、半日教案、动手教案、儿歌教案、歌曲教案等小班教案...</span>
+                        </li>                          
+                    </ul>
+                </div>
+                <div class="content-right-bottom clear-fix">
+                    <div class="jiananBox fl"><a href="javascript:;"><img src="images/11.jpg" alt=""></a></div>
+                   <div class="jiananBox fr"><a href="javascript:;"><img src="images/22.jpg" alt=""></a></div>
+                   <div class="jiananBox fl"><a href="javascript:;"><img src="images/33.jpg" alt=""></a></div>
+                    <div class="jiananBox fr"><a href="javascript:;"><img src="images/44.jpg" alt=""></a></div>
+                     <div class="jiananBox fl"><a href="javascript:;"><img src="images/55.jpg" alt=""></a></div>
+                   <div class="jiananBox fr"><a href="javascript:;"><img src="images/66.jpg" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <section id="yuer">
+        <div class="box">
+            <div class="smalltitle clear-fix">
+                <div class="smalltitle-left fl border-red"></div>
+                <a href="javascript:;" class="fl title red">育儿</a>
+                <em class="fl">Parenting</em>
+                <div class="smalltitle-middle fl">
+                    <a href="javascript:;" class="red">孕期</a>
+                    <a href="javascript:;" class="red">0-1岁</a>
+                    <a href="javascript:;" class="red">2-3岁</a>
+                    <a href="javascript:;" class="red">4-6岁</a>
+                </div>
+                <span class="fr">
+                    <a href="javascript:;" class="red">更多</a>
+                    <span>&gt;&gt;</span>
+                </span>
+            </div>
+            <div class="space-20 top-red"></div>
+            <ul class="content-left fl">
+                <li>
+                    <a href="javascript:;" class="dt dt-red">女性预防不孕应从少女做起</a>
+                    <ul>
+                        <li><a href="javascript:;"><span></span>男性从事这4种职业 警惕不能生育</a></li>
+                        <li><a href="javascript:;"><span></span>宫寒真的会导致不孕吗</a></li>
+                        <li><a href="javascript:;"><span></span>男性弱精症让**“无力”见**</a></li>
+                        <li><a href="javascript:;"><span></span>女性过分苗条可能影响生育</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dt dt-red">黑肤色孕妈怎么生白皙宝宝</a>
+                    <ul>
+                        <li><a href="javascript:;"><span></span>6个方法让你准确计算受孕时间</a></li>
+                        <li><a href="javascript:;"><span></span>母子连心 别让你的坏情绪害了宝宝</a></li>
+                        <li><a href="javascript:;"><span></span>胎盘到底能不能食用</a></li>
+                        <li><a href="javascript:;"><span></span>乙肝妈妈怎么护理宝宝 别急这里有答案</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dt dt-black">如何巧妙地给宝宝断奶</a>
+                    <ul>
+                        <li><a href="javascript:;"><span></span>六个月宝宝拉肚子 推荐7个宝宝腹泻食疗方</a></li>
+                        <li><a href="javascript:;"><span></span>断奶后吃什么好 6款食谱为宝宝提供正能量</a></li>
+                        <li><a href="javascript:;"><span></span>给孩子吃药的错误 你还有吗</a></li>
+                        <li><a href="javascript:;"><span></span>孩子不肯坐安全座椅 四招轻松搞定</a></li>
+                    </ul>
+                </li>   
+                <li>
+                    <a href="javascript:;" class="dt dt-black">幼儿园该不该学拼音</a>
+                    <ul>
+                        <li><a href="javascript:;"><span></span>儿童性教育 什么时候进行为最合适</a></li>
+                        <li><a href="javascript:;"><span></span>应警惕儿童走失10高发场所</a></li>
+                        <li><a href="javascript:;"><span></span>适度晒太阳或可减缓儿童糖尿病发生</a></li>
+                        <li><a href="javascript:;"><span></span>孕妇吃火龙果有什么好处 六大功效不容小觑</a></li>
+                    </ul>
+                </li>   
+            </ul>
+            <div class="content-right fr">
+                <div class="content-right-top clear-fix">
+                        <div class="content-right-top-l fl">
+                            <div class="maskBox">
+                                <a href="javascript:;"><img src="images/yy01.jpg" alt=""></a>
+                                <div class="mask">
+                                    <span>宝宝发育测评</span>
+                                    <b>汇总了宝宝发育的各类测试工具，如果您想了解孩子的发育情况，请点击进入在线测评系统</b>
+                                </div>
+                            </div>   
+                            <div class="s-imgBox clear-fix">
+                                <div class="s-imgBox-l fl">
+                                    <div class="s">
+                                        <a href="javascript:;" class="img-a"><img src="images/yy02.jpg" alt=""></a>
+                                        <a href="javascript:;" class="img-w">各阶段宝宝营养需求</a>
+                                    </div>
+                                </div>
+                                <div class="s-imgBox-r fr">
+                                    <div class="s">
+                                        <a href="javascript:;" class="img-a"><img src="images/yy03.jpg" alt=""></a>
+                                        <a href="javascript:;" class="img-w">宝宝营养知识</a>
+                                    </div>
+                                </div>
+                            </div>                      
+                        </div>
+                        <ul class="content-right-top-r fr">
+                            <li class="fangan first clear-fix">
+                                <a href="javascript:;" class="a-img"><img src="images/ye01.jpg" alt="">
+                                </a>
+                                <div>
+                                    <a href="javascript:;" class="fr a-w">亲子节日活动方案</a>
+                                    <span>过节了，带着孩子和家庭一起出发，过一个有意义的亲子节日吧！</span>
+                                </div>
+                            </li>
+                            <li class="fangan clear-fix">
+                                <a href="javascript:;" class="a-img"><img src="images/ye02.jpg" alt=""></a>
+                                <div>
+                                    <a href="javascript:;" class="fr a-w">亲子派对方案</a>
+                                    <span>有很多的派对活动是不需要花多少的金钱，却能达到很好的纪念效果的。</span>
+                                </div>
+                            </li>
+                            <li class="fangan clear-fix">
+                                <a href="javascript:;" class="a-img"><img src="images/ye03.jpg" alt="">
+                                </a>
+                                <div>
+                                    <a href="javascript:;" class="fr a-w">亲子周末共渡方案</a>
+                                    <span>如何带孩子过周未，让孩子积极、主动地参与，父母和孩子一起体验。</span>
+                                </div>
+                            </li>  
+                            <li class="fangan last clear-fix">
+                                <a href="javascript:;" class="a-img"><img src="images/ye04.jpg" alt="">
+                                </a>
+                                <div>
+                                    <a href="javascript:;" class="fr a-w">宝宝疾病大全</a>
+                                    <span>全面介绍宝宝的常见疾病有哪些、症状是什么、如何治疗、注意事项等。</span>
+                                </div>
+                            </li>      
+                        </ul>
+                    </div>
+                <div class="content-right-bottom" style="margin-top: 35px"> 
+                    <div class="yuer fangzhuan fl">
+                        <a href="javascript:;">
+                            <img src="images/yeb1.jpg" alt="">
+                            <div class="yuertime">
+                                <h2>育儿时间线</h2>
+                                <ul>
+                                    <li>
+                                        <em  class="dt">孕前</em>
+                                        <em >1年前</em>
+                                        <em >3月前</em>
+                                        <em >第3月</em>
+                                        <em >第2月</em>
+                                        <em >第1月</em>
+                                    </li>
+                                    <li>
+                                        <em  class="dt">孕期</em>
+                                        <em >1</em>
+                                        <em >2</em>
+                                        <em >3</em>
+                                        <em >4</em>
+                                        <em >5</em>
+                                        <em >6</em>
+                                        <em >7</em>
+                                        <em >8</em>
+                                        <em >9</em>
+                                        <em >10</em>
+                                    </li>
+                                    <li>
+                                        <em  class="dt">0 岁</em>
+                                        <em >1</em>
+                                        <em >2</em>
+                                        <em >3</em>
+                                        <em >4</em>
+                                        <em >5</em>
+                                        <em >6</em>
+                                        <em >7</em>
+                                        <em >8</em>
+                                        <em >9</em>
+                                        <em >10</em>
+                                        <em >11</em>
+                                        <em >12</em>
+                                    </li>
+                                    <li>
+                                        <em  class="dt">1 岁</em>
+                                        <em >1-3月</em>
+                                        <em >4-6月</em>
+                                        <em >7-9月</em>
+                                        <em >10-12月</em>                                        
+                                    </li>
+                                    <li>
+                                        <em  class="dt">2 岁</em>
+                                        <em >1-3月</em>
+                                        <em >4-6月</em>
+                                        <em >7-9月</em>
+                                        <em >10-12月</em>                                        
+                                    </li>
+                                    <li>
+                                        <em  class="dt">3 岁</em>
+                                        <em >1-3月</em>
+                                        <em >4-6月</em>
+                                        <em >7-9月</em>
+                                        <em >10-12月</em>                                        
+                                    </li>
+                                    <li>
+                                        <em  class="dt">4 岁</em>
+                                        <em >1-3月</em>
+                                        <em >4-6月</em>
+                                        <em >7-9月</em>
+                                        <em >10-12月</em>                                        
+                                    </li>
+                                    <li>
+                                        <em  class="dt">5 岁</em>
+                                        <em >1-3月</em>
+                                        <em >4-6月</em>
+                                        <em >7-9月</em>
+                                        <em >10-12月</em>                                        
+                                    </li>
+                                    <li>
+                                        <em  class="dt">儿童</em>
+                                        <em >6岁</em>
+                                        <em >7岁</em>
+                                        <em >8岁</em>
+                                        <em >9岁</em>
+                                        <em >10岁</em> 
+                                        <em >11岁</em> 
+                                        <em >12岁</em>                                      
+                                    </li>
+                                </ul>
+                            </div> 
+                        </a>                                               
+                    </div>  
+                    <div class="yuer fangzhuan fr">
+                        <a href="javascript:;">
+                            <img src="images/yeb2.jpg" alt="">
+                            <div class="yuergoju red">
+                                <h2 class="red">育儿工具箱</h2>
+                                <ul class="clear-fix">
+                                    <li><img src="images/caret.png" alt=""> 起名工具</li>
+                                    <li><img src="images/caret.png" alt=""> 宝宝身高体重标准</li>
+                                    <li><img src="images/caret.png" alt=""> 婴幼儿成长月历</li>
+                                    <li><img src="images/caret.png" alt=""> 安全期计算</li>
+                                    <li><img src="images/caret.png" alt=""> 孕期周历</li>
+                                    <li><img src="images/caret.png" alt=""> 预产期计算</li>
+                                    <li><img src="images/caret.png" alt=""> 产前检查</li>
+                                    <li><img src="images/caret.png" alt=""> 辅食添加</li>
+                                    <li><img src="images/caret.png" alt=""> 0-3岁早教游戏</li>
+                                    <li><img src="images/caret.png" alt=""> 入院分娩须知</li>
+                                    <li><img src="images/caret.png" alt=""> 宝宝贫血咋办</li>
+                                    <li><img src="images/caret.png" alt=""> 疫苗接种安排</li>
+                                    <li><img src="images/caret.png" alt=""> 叶酸补充知识</li>
+                                    <li><img src="images/caret.png" alt=""> 宝宝疾病速查</li>
+                                    <li><img src="images/caret.png" alt=""> 预产期自测</li>
+                                    <li><img src="images/caret.png" alt=""> 预测宝宝血型</li>
+                                    <li><img src="images/caret.png" alt=""> 母亲健康手册</li>
+                                    <li><img src="images/caret.png" alt=""> 儿童安全</li>
+                                </ul>
+                            </div>
+                        </a>  
+                    </div>             
+                </div>
+            </div> 
+
+        </div>
+    </section>
+
+    <section id="dongtai" style="overflow: hidden;">
+        <div class="bigbox">
+            <div class="title clear-fix">
+                <div class="title-lf lf"></div>
+                   <a href="javascript:;" class="lf title-lf-1">动态</a>
+                   <em class="fl">Dynimic</em>
+                   <ul class="title-lf-2 lf">
+                       <a href="javascript:;">儿童服装</a>
+                       <a href="javascript:;">儿童玩具</a>
+                       <a href="javascript:;">儿童图书</a>
+                       <a href="javascript:;">儿童食品</a>
+                   </ul>
+                <div class="titel-rt rt">
+                    <a href="javascript" style="font-size: 12px">更多</a>
+                    <span style='color:#e6e6e6'>&gt;&gt;</span>
+                    
+                </div>
+            </div>
+            <div class="space-20"></div>
+            <ul class="content-left fl">
+                <li>
+                    <a href="javascript:;" class="dt">永安小学展开气象科普知识主题班会</a>
+                    <ul>
+                        <li><a href="javascript:;"><span></span>深圳2016国际孕婴童用品展览会</a></li>
+                        <li><a href="javascript:;"><span></span>2016上海孕婴童与儿童生活服务体验品牌展览</a></li>
+                        <li><a href="javascript:;"><span></span>2016北京国际幼教装备及用品展览会</a></li>
+                        <li><a href="javascript:;"><span></span>一个差生的高考奇迹 孩子最需要这样的故事</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dt" style="font-size:16px">永安小学开展“劳动最光荣”道德讲堂活动</a>
+                    <ul>
+                        <li><a href="javascript:;"><span></span>西乡塘区均衡发展督导组到永安小学指导学</a></li>
+                        <li><a href="javascript:;"><span></span>永安小学开展防震逃生演练活动</a></li>
+                        <li><a href="javascript:;"><span></span>JUSTIN佳田可折叠多功能儿童餐桌椅</a></li>
+                        <li><a href="javascript:;"><span></span>朗宝尼尔秋冬季儿童彩棉直筒厚款睡袋</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dt dt-black">巴布豆潮款男童防滑保暖马丁靴</a>
+                    <ul>
+                        <li><a href="javascript:;"><span></span>田鼠童鞋 保暖防滑舒适防水棉靴</a></li>
+                        <li><a href="javascript:;"><span></span>人教新课标版语文四年级上册期中测试卷</a></li>
+                        <li><a href="javascript:;"><span></span>香港Dr.Kong江博士 1～3岁健康鞋、学步鞋</a></li>
+                        <li><a href="javascript:;"><span></span>ROZA300g番茄酱+500g直身形意大利面</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="dt dt-black">成长不烦恼系列 三至六年级必读课外书</a>
+                    <ul>
+                        <li><a href="javascript:;"><span></span>精装手绘儿童版 手绘中国地理地图（4-12岁</a></li>
+                        <li><a href="javascript:;"><span></span>澳贝森林钢琴健身器二合一脚踏钢琴 一款多</a></li>
+                        <li><a href="javascript:;"><span></span>auby澳贝智慧趣味小树 婴幼儿早教益智玩具</a></li>
+                        <li><a href="javascript:;"><span></span>动画大电影《名侦探柯南：纯黑的噩梦》定</a></li>
+                    </ul>
+                </li>   
+            </ul>
+            <div class="content-right rt">
+                <div class="content-right-tp clear-fix">
+                    <div class="content-right-tp-1 lf">
+                        <div class="content-right-tp-1-tp">
+                            <a href="javascript:;"><img src="./images/dt01.jpg"></a>
+                            <div class="nr">
+                                <span class="tz">童装品牌名录
+                                <b class="tz1">充分对比世界各地童装品牌，带您详细了解童装品牌排行榜，介绍世界上知名童装品牌大全，童装品牌排行榜</b>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="content-right-tp-1-bt clear-fix">
+                            <div class="bt1  lf">
+                                <a href="javascript:;"
+                                class="img-a"><img src="./images/dt02.jpg"></a>
+                                <a href="javascript:;" class="img-b" >玩具品牌</a>
+                            </div>
+                            <div class="bt2 rt">
+                                <a href="javascript:;" class="img-c"><img src="./images/dt03.jpg"></a>
+                                <a href="javascript:;" class="img-d">食品品牌</a>
+                            </div>
+                            
+                           
+                        </div>
+                    </div>
+                <ul class="content-right-tp-2 rt">
+                        <li class="tp2 clear-fix">
+                        <span class="tp2-1 lf">1</span>
+                        <a href="javascript:;" class="rt tp2-2">中国共产党党内监督条例</a>
+                        </li>
+                        <li class="tp2 clear-fix">
+                        <span class="tp2-1 lf">2</span>
+                        <a href="javascript:;" class="rt tp2-2">中国共产党纪律处分条例(5)</a>
+                        </li>
+                        <li class="tp2 clear-fix">
+                        <span class="tp2-1 lf">3</span>
+                        <a href="javascript:;" class="rt tp2-2">幼儿园食品安全小常识</a>
+                        </li>
+                       <li class="tp2 clear-fix">
+                        <span class="tp2-3 lf">4</span>
+                        <a href="javascript:;" class="rt tp2-2">幼儿园食品安全小常识</a>
+                        </li>
+                        <li class="tp2 clear-fix">
+                        <span class="tp2-3 lf">5</span>
+                        <a href="javascript:;" class="rt tp2-2">幼儿园中班五大领域教育目标</a>
+                        </li>
+                         <li class="tp2 clear-fix">
+                        <span class="tp2-3 lf">6</span>
+                        <a href="javascript:;" class="rt tp2-2">中国共产党纪律处分条例(1)</a>
+                        </li>
+                        <li class="tp2 clear-fix">
+                        <span class="tp2-3 lf">7</span>
+                        <a href="javascript:;" class="rt tp2-2">幼儿园预防春季传染病宣传活动</a>
+                        </li>
+                        <li class="tp2 clear-fix">
+                        <span class="tp2-3 lf">8</span>
+                        <a href="javascript:;" class="rt tp2-2">适合一、二年级小学生阅读的课外书</a>
+                        </li>
+                        <li class="tp2 clear-fix">
+                        <span class="tp2-3 lf">9</span>
+                        <a href="javascript:;" class="rt tp2-2">中小学校财务行为制度</a>
+                        </li>
+                </ul>
+                </div>
+                <div class="content-right-bt lf">
+                   <div class="content-right-bt-a">
+                       <h4 class="content-right-bt-a1">动态热点图片</h4> 
+                   </div>
+                     
+                    <ul class="content-right-bt-b ">
+                     <div class="btw fl">
+                                <a href="javascript:;" class="img-e"><img src="./images/2256227_130_95.jpg"></a>
+                                <a href="javascript:;" class="img-d">校内减负校外加 中国家长如何摆脱“高压教育”</a>
+                            </div>
+                     
+                     <div class="btw fl">
+                                <a href="javascript:;" class="img-e"><img src="./images/2256115_130_95.jpg"></a>
+                                <a href="javascript:;" class="img-d">小屁孩成长记 儿童励志文学小学生课外书籍10册</a>
+                            </div>
+                     <div class="btw fl">
+                                <a href="javascript:;" class="img-e"><img src="./images/2256128_130_95.jpg"></a>
+                                <a href="javascript:;" class="img-d">成长不烦恼系列 三至六年级必读课外书</a>
+                            </div>
+                      <div class="btw1 fl">
+                                <a href="javascript:;" class="img-e"><img src="./images/2256113_130_95.jpg"></a>
+                                <a href="javascript:;" class="img-d">巴布豆潮款男童防滑保暖马丁靴</a>
+                            </div>
+                     <div class="btw fl">
+                                <a href="javascript:;" class="img-c"><img src="./images/2256127_130_95.jpg"></a>
+                                <a href="javascript:;" class="img-d">精装手绘儿童版 手绘中国地理地图（4-12岁）</a>
+                            </div>
+                      <div class="btw fl">
+                                <a href="javascript:;" class="img-c"><img src="./images/2256111_130_95.jpg"></a>
+                                <a href="javascript:;" class="img-d">田鼠童鞋 保暖防滑舒适防水棉靴</a>
+                            </div>
+                     <div class="btw fl">
+                                <a href="javascript:;" class="img-c"><img src="./images/2256119_130_95.jpg"></a>
+                                <a href="javascript:;" class="img-d">澳贝森林钢琴健身器二合一脚踏钢琴 一款多用</a>
+                            </div>
+                     <div class="btw1 fl">
+                                <a href="javascript:;" class="img-c"><img src="./images/2256123_130_95.jpg"></a>
+                                <a href="javascript:;" class="img-d">ROZA300g番茄酱+500g直身形意大利面</a>
+                            </div>
+                       
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="ht fl">
+                <ul class="ht1">
+                <a href="javascript">好站连接</a>
+                 <a href="javascript">相关服务</a>
+                  <a href="javascript">隐私政策</a>
+                   <a href="javascript">关于我们</a>
+                </ul>
+            </div>
+
+            <div class="d2 fl">
+                <ul class="d2-1">
+                    <a href="javascript:;">热点儿歌</a>
+                     <a href="javascript:;">大图素材</a>
+                     <a href="javascript:;">邮编生活网</a>
+                     <a href="javascript:;">小学生作文</a>
+                     <a href="javascript:;">汉语大辞典</a>
+                     <a href="javascript:;">中小学教育网</a>
+                     <a href="javascript:;">儿童手影</a>
+                     <a href="javascript:;">儿童学魔术</a>
+                     <a href="javascript:;">儿童面塑</a>
+                     <a href="javascript:;">儿童动画片</a>
+                     <a href="javascript:;">二人转</a>
+                     <a href="javascript:;">小学古诗大全</a>
+                     <a href="javascript:;">查字典板报网</a>
+                     <a href="javascript:;">医网</a>
+                </ul>
+            </div>
+
+            <div class="d1 fl">
+                 <div class="d1-1">
+                      广告和商务合作qq：2925720737 友情链接qq：570188905 邮件:570188905
+                      <span>@</span>
+                      qq.com 本站域名:
+                      <a href="./images/小精灵儿童网站.html" class="wz">www.060s.com</a>
+                        <br>
+                       Copyright © 2004-2017 All Rights Reserved 版权所有
+                       <a href="./images/小精灵儿童网站.html" class="wz1">小精灵儿童网</a>
+                       <br>
+
+                       <a href="http://www.miibeian.gov.cn/" class="wz2"> 京公网安备11010602004726号-1 </a>
+                 </div>        
+                
+            </div>
+            <div class="tb">
+                <img src="./images/shouji.png" width="100px" height="100px">
+                <br>
+                <span>手机版</span> 
+            </div>
+            <div class="tb2">
+                <img src="./images/weixin.png" width="100px" height="100px">
+                <br>
+                <span>微信关注</span> 
+            </div>
+            <div class="tb3 clear-fix" style="bottom: 70px">
+                <a href="#er" class="a1 lf">儿</a>
+                <a href="#jiaoxue" class="a2 lf">教</a>
+                <a href="#dongtai" class="a2 lf">动</a>
+                <a href="#yuer" class="a1 lf">育</a>
+            </div>      
+        </div>
+    </section>
+</body>
+</html>
