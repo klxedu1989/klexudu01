@@ -64,64 +64,69 @@ h1, h2 {
         margin-bottom: 0.474rem;
         color: black;
         font-size: 0.427rem; }
-      .middle .middle1 .middle1-top ul {
-        margin-bottom: 0;
-        /*display: flex;*/
-        width: 100%; }
-        .middle .middle1 .middle1-top ul li {
-          padding-left: 0;
-          padding-right: 0.4rem;
-          margin-bottom: 0.142rem;
-          overflow: hidden; }
-          .middle .middle1 .middle1-top ul li .left {
-            border: 1px solid lightgrey; }
-            .middle .middle1 .middle1-top ul li .left .middle1-top-li-top {
-              height: 58px;
-              background-color: #3ba1b0;
-              border-radius: 0.178rem  0.178rem 0 0; }
-              .middle .middle1 .middle1-top ul li .left .middle1-top-li-top h2 {
-                color: #fff;
+      .middle .middle1 .middle1-top div {
+        overflow: hidden; }
+        .middle .middle1 .middle1-top div ul {
+          margin-bottom: 0;
+          /*display: flex;*/
+          width: 100%;
+          margin-left: 0; }
+          .middle .middle1 .middle1-top div ul li {
+            padding-left: 0;
+            padding-right: 0.4rem;
+            margin-bottom: 0.142rem;
+            overflow: hidden; }
+            .middle .middle1 .middle1-top div ul li .left {
+              border: 1px solid lightgrey; }
+              .middle .middle1 .middle1-top div ul li .left .middle1-top-li-top {
+                height: 58px;
+                background-color: #3ba1b0;
+                border-radius: 0.178rem  0.178rem 0 0; }
+                .middle .middle1 .middle1-top div ul li .left .middle1-top-li-top h2 {
+                  color: #fff;
+                  text-align: center;
+                  font-size: 30px;
+                  line-height: 58px; }
+              .middle .middle1 .middle1-top div ul li .left p {
+                margin-top: 0.32rem;
+                margin-left: 0.166rem;
+                color: grey;
+                font-size: 0.166rem; }
+              .middle .middle1 .middle1-top div ul li .left span {
+                display: inline-block;
+                margin-left: 0.166rem;
+                /*bottom:0;*/
+                margin-top: 0.901rem;
+                margin-bottom: 0.166rem;
+                color: red;
+                font-size: 0.166rem; }
+              .middle .middle1 .middle1-top div ul li .left .span3 {
+                margin-top: 0.45rem; }
+              .middle .middle1 .middle1-top div ul li .left .span2 {
+                margin-top: 4em; }
+              .middle .middle1 .middle1-top div ul li .left .middle1-top-li-top1 {
+                height: 37px;
+                width: 90%;
+                margin: 0 auto;
                 text-align: center;
-                font-size: 30px;
-                line-height: 58px; }
-            .middle .middle1 .middle1-top ul li .left p {
-              margin-top: 0.32rem;
-              margin-left: 0.166rem;
-              color: grey;
-              font-size: 0.166rem; }
-            .middle .middle1 .middle1-top ul li .left span {
-              display: inline-block;
-              margin-left: 0.166rem;
-              /*bottom:0;*/
-              margin-top: 0.901rem;
-              margin-bottom: 0.166rem;
-              color: red;
-              font-size: 0.166rem; }
-            .middle .middle1 .middle1-top ul li .left .span3 {
-              margin-top: 0.45rem; }
-            .middle .middle1 .middle1-top ul li .left .span2 {
-              margin-top: 4em; }
-            .middle .middle1 .middle1-top ul li .left .middle1-top-li-top1 {
-              height: 37px;
-              width: 90%;
-              margin: 0 auto;
-              text-align: center;
-              background-color: #fff;
-              border: 1px solid #3ba1b0;
-              border-radius: 0.059rem;
-              margin-bottom: 10px; }
-              .middle .middle1 .middle1-top ul li .left .middle1-top-li-top1:hover {
-                background-color: #3ba1b0; }
-              .middle .middle1 .middle1-top ul li .left .middle1-top-li-top1 a:hover {
-                text-decoration: none; }
-              .middle .middle1 .middle1-top ul li .left .middle1-top-li-top1 a:hover h4 {
-                color: #fff; }
-              .middle .middle1 .middle1-top ul li .left .middle1-top-li-top1 a h4 {
-                color: #3ba1b0;
-                text-align: center;
-                margin: 0;
-                font-size: 25px;
-                line-height: 37px; }
+                background-color: #fff;
+                border: 1px solid #3ba1b0;
+                border-radius: 0.059rem;
+                margin-bottom: 10px; }
+                .middle .middle1 .middle1-top div ul li .left .middle1-top-li-top1:hover {
+                  background-color: #3ba1b0; }
+                .middle .middle1 .middle1-top div ul li .left .middle1-top-li-top1 a:hover {
+                  text-decoration: none; }
+                .middle .middle1 .middle1-top div ul li .left .middle1-top-li-top1 a:hover h4 {
+                  color: #fff; }
+                .middle .middle1 .middle1-top div ul li .left .middle1-top-li-top1 a h4 {
+                  color: #3ba1b0;
+                  text-align: center;
+                  margin: 0;
+                  font-size: 25px;
+                  line-height: 37px; }
+      .middle .middle1 .middle1-top div.container {
+        padding-left: 0; }
     .middle .middle1 .middle1-top2 h1 {
       width: 60%; }
     .middle .middle1 .middle1-top2 .container {
