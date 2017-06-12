@@ -1,0 +1,34 @@
+'use strict';
+;(function(){
+	var iframe = document.createElement('iframe'),
+		src = 'https://jh.dianping.com/wedding/pro/pcprompage?type=ExternalSiteForPC&source=yx&platform=zhitou&params={%22shopType%22:%2270%22}';
+
+	iframe.setAttribute('scrolling', 'no', 0);
+	iframe.setAttribute('frameborder', 0, 0);
+	iframe.style.cssText = 'display:block; width:100%; height:100%; border:none; margin:0 auto;';
+
+	var scripts = document.getElementsByTagName('script'),
+		len = scripts.length,
+		script = scripts[len - 1],
+		scriptSrc = script.src,
+		scriptParent = script.parentNode;
+
+	//测试环境适配
+	var isAalpha = /^https:\/\/i\d\.static\.dp\//.test(scriptSrc),
+		isBeta = /^https:\/\/s\d\.51ping\.com\//.test(scriptSrc),
+		isPpe = /^https:\/\/pi\d\.dpfile\.com\//.test(scriptSrc);	
+
+	if(isAalpha){
+		src = 'https://jh.alpha.dp/wedding/pro/pcprompage?type=ExternalSiteForPC&source=yx&platform=zhitou&params={%22shopType%22:%2270%22}';
+	}else if(isBeta){
+		src = 'https://jh.51ping.com/wedding/pro/pcprompage?type=ExternalSiteForPC&source=yx&platform=zhitou&params={%22shopType%22:%2270%22}';
+	}else if(isPpe){
+		src = 'https://ppe.jh.dianping.com/wedding/pro/pcprompage?type=ExternalSiteForPC&source=yx&platform=zhitou&params={%22shopType%22:%2270%22}';
+	}else{
+		//
+	}
+
+	iframe.setAttribute('src', src, 0);
+
+	scriptParent.insertBefore(iframe, script);
+})();

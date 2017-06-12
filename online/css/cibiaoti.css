@@ -1,0 +1,51 @@
+.cibiaoti {
+  height: 24px;
+  width: 100%; }
+  .cibiaoti .a-t-left {
+    height: 21px;
+    border-left: 5px solid #00ab84;
+    width: 10px;
+    margin: 2px 0px 1px 0px; }
+    .cibiaoti .a-t-left.red {
+      border-left: 5px solid #ea5550; }
+  .cibiaoti .s-title {
+    font-size: 24px;
+    color: #00ab84;
+    font-weight: 700; }
+    .cibiaoti .s-title.red {
+      color: #ea5550; }
+    .cibiaoti .s-title:hover {
+      color: #cc0000; }
+  .cibiaoti em {
+    padding-left: 10px;
+    color: #ccc;
+    font-size: 15px;
+    margin: 6px 0px 2px 0px; }
+  .cibiaoti .s-s-title {
+    padding-left: 10px;
+    margin: 11px 0px 1px 0px; }
+  .cibiaoti .more {
+    padding-left: 10px;
+    margin: 11px 0px 1px 0px; }
+    .cibiaoti .more i {
+      font-style: normal;
+      color: #ccc; }
+  .cibiaoti .s-s-title-a {
+    padding-left: 10px;
+    position: relative;
+    top: -4px;
+    font-size: 12px;
+    color: #00ab84;
+    opacity: 0.6; }
+    .cibiaoti .s-s-title-a.red {
+      color: #ea5550; }
+    .cibiaoti .s-s-title-a:hover {
+      color: #cc0000; }
+
+.border-b {
+  width: 100%;
+  border-bottom: 3px solid #deefe7; }
+  .border-b.red {
+    border-bottom: 3px solid #fce2da; }
+
+/*# sourceMappingURL=cibiaoti.css.map */

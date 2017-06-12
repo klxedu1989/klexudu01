@@ -1,0 +1,225 @@
+// PC_Ad980_90 原生多图 文章页 顶部通栏 栏目页底部 2016/11/18
+//<script language="javascript">Ad980_90();</script>
+
+// PC_Ad980_90B 育儿栏目 原生多图 2016/11/18
+//<script language="javascript">Ad980_90B();</script>
+
+// Ad980_90C 栏目 底部通栏 2016/12/07  WAMGCHAO
+//<script language="javascript">Ad980_90C();</script>
+
+
+// PC_640*60 原生图文 文章顶部 2016-11-18
+//<script language="javascript">Ad640_60();</script>
+
+// PC_Ad300_250 文章页 栏目最新 上 右图 2016/11/18
+//<script language="javascript">Ad300_250();</script>
+
+// PC_Ad300_250 文章页 栏目最新 上 左图 2016/11/18
+//<script language="javascript">Ad300_250B();</script>
+
+// -- 调用 PC_ADg300_250A 原生4图 顶部
+//<script language="javascript">Ad300_250C();</script>
+
+// PC_Ad500_200 文章页底部 摘要 相关文章上 2016-11-18
+//<script language="javascript">Ad500_200();</script>
+
+// PC_640*250 原生多图 栏目最新上 相关文章下 猜你喜欢 2016-11-18
+//<script language="javascript">Ad640_250();</script>
+
+// PC_Ad640_200A 原生文字 文章最底部 2016-11-18
+//<script language="javascript">Ad640_200A();</script>
+
+// PC_AD336_280 育儿频道 栏目 上1 焦点图 2016-11-18
+//<script language="javascript">AD336_280();</script>
+
+// PC_ADg300_600 漂浮滚动 右底 2016-11-18
+//<script language="javascript">ADg300_600();</script>
+
+// PC_ADg300_250B 文章页 原生多图 右侧2 2016/11/18
+//<script language="javascript">ADg300_250B();</script>
+
+// PC_ADg300_250A 原生4图 文章页 右侧一 顶部
+//<script language="javascript">ADg300_250A();</script>
+
+// 调用广告位 PC_AD336_280 育儿频道 栏目 上1 焦点图 2016-11-18
+//<script language="javascript">ADg336_280();</script>
+
+//PC_640*250 多彩标签云 文章页底部 相关文章上 2016-11-18
+//<script language="javascript">zAd640_250();</script>
+
+var IElet10=0;
+if(navigator.appName == "Microsoft Internet Explorer"){ if(navigator.appVersion.match(/6./i)=="6." || navigator.appVersion.match(/7./i)=="7." || navigator.appVersion.match(/8./i)=="8.") IElet10=1;}
+var GoogleAd=0;
+var reqGoogle;
+if (IElet10==0){reqGoogle = createXHttp();if (reqGoogle){reqGoogle.onreadystatechange = handleSCGoogle;reqGoogle.open("GET", "http://googleads.g.doubleclick.net/favicon.ico", true);reqGoogle.send(null);}}
+function handleSCGoogle(){if (reqGoogle.readyState == 4){if (reqGoogle.status == 200 ){GoogleAd=0;}else if(reqGoogle.status == 404){GoogleAd=0;}else if(reqGoogle.status == 403){GoogleAd=0;}else if(reqGoogle.status == 0){GoogleAd=0;}}}
+
+var AdCount=0;
+function Ad980_90(){AdCount=AdCount+1;document.writeln("<script type=\"text\/javascript\">\/*PC_Ad980_90 原生多图 顶部通栏2014-5-22*\/var cpro_id = \"u1564333\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");}
+function Ad980_90B(){AdCount=AdCount+1;document.writeln("<script type=\"text\/javascript\">\/*PC_Ad980_120B 育儿栏目 原生多图 2016\/11\/18*\/var cpro_id = \"u2820848\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");}
+function Ad980_90C(){AdCount=AdCount+1;document.writeln("<script type=\"text\/javascript\">\/*PC_Ad980_120B 育儿栏目 原生多图 2016\/11\/18*\/var cpro_id = \"u2820848\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");}
+function Ad640_60(){AdCount=AdCount+1;document.writeln("<script type=\"text\/javascript\">\/*PC_640*200 原生多图 文章顶部 2016\/11\/18*\/var cpro_id = \"u2820948\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");}
+function Ad640_60B(){
+//AdCount=AdCount+1;document.writeln("<script>(function() {var s = \"_\" + Math.random().toString(36).slice(2);document.write(\'<div id=\"\' + s + \'\"></div>\');(window.slotbydup=window.slotbydup || []).push({id: \'2394610\',container: s,size: \'640,60\',display: \'inlay-fix\'});})();</script>");
+}
+function Ad300_250(){AdCount=AdCount+1;document.writeln("<script type=\"text\/javascript\">\/*PC_Ad300_250 文章页 栏目最新 上 右图 2016\/11\/18*\/var cpro_id = \"u2821410\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");}
+function Ad300_250B(){AdCount=AdCount+1;document.writeln("<script type=\"text\/javascript\">\/*PC_Ad300_250 文章页 栏目最新 上 左图 2016\/11\/18*\/var cpro_id = \"u2821417\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");}
+function Ad300_250C(){AdCount=AdCount+1;document.writeln("<script type=\"text\/javascript\">\/*PC_ADg300_250A 原生4图 文章页 右侧一 顶部 2016\/11\/18*\/var cpro_id = \"u2820983\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");}
+function Ad500_200(){AdCount=AdCount+1;document.writeln("<script type=\"text\/javascript\">\/*PC_Ad500_200 文章页底部 摘要 相关文章上 2016-11-18*\/var cpro_id = \"u2821385\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");}
+function Ad640_250(){document.writeln("<script type=\"text\/javascript\">\/*PC_640*250 原生多图 栏目最新上 相关文章下 2016\/11\/18*\/var cpro_id = \"u2821328\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");}
+function Ad640_200A(){document.writeln("<script type=\"text\/javascript\">\/*PC_Ad640_200A 原生文字 文章最底部 2016/11/18*\/var cpro_id = \"u2821340\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");}
+function AD336_280(){AdCount=AdCount+1;document.writeln("<script type=\"text\/javascript\">\/*PC_AD336_280 育儿频道 上1 2016\/11\/18*\/var cpro_id = \"u2821469\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");}
+function Ad640_120(){document.writeln("<script>(function() {var s = \"_\" + Math.random().toString(36).slice(2);document.write(\'<div id=\"\' + s + \'\"></div>\');(window.slotbydup=window.slotbydup || []).push({id: \'2392742\',container: s,size: \'640,120\',display: \'inlay-fix\'});})();</script>");}
+
+// 列表页 Ad500_200 右侧 非广告
+function Ad120_200(){
+document.writeln("<div style=\"width:120px;height:200px;background:#eeeeee;text-align:center;line-height:50px\">");
+document.writeln("<a href=\"http://www.060s.com/age/0_3.php\" title=\"0-3岁\">0-3岁</a> <a href=\"http://www.060s.com/age/3_6.php\" title=\"3-6岁\">3-6岁</a><br>");
+document.writeln("<a href=\"http://www.060s.com/age/6_12.php\" title=\"6-12岁\">6-12岁</a> <a href=\"http://www.060s.com/age/qn.php\" title=\"全脑开发\">全脑</a><br>");
+document.writeln("<a href=\"http://www.060s.com/age/ds.php\" title=\"亲自动手\">动手</a>　 <a href=\"http://www.060s.com/age/kp.php\" title=\"科普\">科普</a><br>");
+document.writeln("<a href=\"http://www.060s.com/age/yl.php\" title=\"儿童娱乐\">娱乐</a>　 <a href=\"http://www.060s.com/age/xx.php\" title=\"在线学习\">学习</a>");
+document.writeln("</div>");
+}
+
+function zAd640_250(){
+document.writeln("<div style=\"width:640px;margin:10 0;\"><script type=\"text\/javascript\">\/*PC_640*250 多彩标签云 相关文章上 2016\/11\/18*\/var cpro_id = \"u2821164\";<\/script><script src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\" type=\"text\/javascript\"><\/script></div>");
+//document.urite("<div style=\"border:1px solid #cccccc\"><div style=\"margin:10px 0\"><div style=\"float:left;width:13px;height:10px\"></div><div style=\"float:left;width:313px;height:250px;\"><script language=\"javascript\">Ad300_250B();</script></div><div style=\"float:left;width:300px;height:250px;\"><script language=\"javascript\">Ad300_250();</script></div><div id=\"space1\"></div></div></div>");
+}
+function zAd640_200(){
+document.writeln("<div style=\"width:640px;margin:10 0;\"><script type=\"text\/javascript\">\/*云标签 90 创建于2016-10-27*\/var cpro_id = \"u2800702\";<\/script><script src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\" type=\"text\/javascript\"><\/script></div>");
+//document.urite("<div style=\"width:640px;margin:0;\"><div style=\"border:1px solid #cccccc\"><div style=\"float:left;margin:9px\"><script language=\"javascript\">Ad500_200();</script></div><div style=\"float:left;width:120px;height:218px;background:#ffffff\"><script language=\"javascript\">Ad120_200();</script></div><div id=\"space1\"></div></div></div>");
+}
+
+function ADg300_600(){
+document.writeln("<script type=\"text\/javascript\">\/*PC_ADg300_600 漂浮滚动 右底 2016-11-18*\/var cpro_id = \"u2821351\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");
+}
+
+function ADg300_250A(){
+document.writeln("<script type=\"text\/javascript\">\/*PC_ADg300_250A 原生4图 文章页 右侧一 顶部 2016\/11\/18*\/var cpro_id = \"u2820983\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");
+
+//if(IElet10 || GoogleAd){BackAd300_250tp();}else{
+//document.writeln("<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>");
+//document.writeln("<!-- 300_250浏览页广告 -->");
+//document.writeln("<ins class=\"adsbygoogle\"");
+//document.writeln("     style=\"display:inline-block;width:300px;height:250px\"");
+//document.writeln("     data-ad-client=\"ca-pub-5651802458032715\"");
+//document.writeln("     data-ad-slot=\"0452188084\"></ins>");
+//document.writeln("<script>");
+//document.writeln("(adsbygoogle = window.adsbygoogle || []).push({});");
+//document.writeln("</script>");}
+}
+
+function ADg300_250B(){
+document.writeln("<script type=\"text\/javascript\">\/*PC_ADg300_250B 文章页 原生多图 右侧2 2016\/11\/18*\/var cpro_id = \"u2821015\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");
+}
+
+// 调用广告位 PC_AD336_280 育儿频道 栏目 上1 焦点图 2016-11-18
+function ADg336_280(){
+if(IElet10 || GoogleAd){MyAd336_280();}else{
+document.writeln("<script type=\"text\/javascript\">\/*PC_AD336_280 育儿频道 上1 2016\/11\/18*\/var cpro_id = \"u2821469\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");
+document.writeln("<!-- 336_280其它页面 -->");
+document.writeln("<ins class=\"adsbygoogle\"");
+document.writeln("     style=\"display:inline-block;width:336px;height:280px\"");
+document.writeln("     data-ad-client=\"ca-pub-5651802458032715\"");
+document.writeln("     data-ad-slot=\"4825604048\"></ins>");
+document.writeln("<script>");
+document.writeln("(adsbygoogle = window.adsbygoogle || []).push({});");
+document.writeln("</script>");
+}}
+// PC_百度联盟 728*90 创建于 2016-11-24
+function ADg728_90(){
+if(IElet10 || GoogleAd){document.writeln("");}else{
+document.writeln("<script type=\"text\/javascript\">\/*百度联盟 728*90 创建于 2016\/11\/25*\/var cpro_id = \"u2827204\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");
+document.writeln("<!-- 060s728 -->");
+document.writeln("<ins class=\"adsbygoogle\"");
+document.writeln("     style=\"display:inline-block;width:728px;height:90px\"");
+document.writeln("     data-ad-client=\"ca-pub-5651802458032715\"");
+document.writeln("     data-ad-slot=\"2525064245\"></ins>");
+document.writeln("<script>");
+document.writeln("(adsbygoogle = window.adsbygoogle || []).push({});");
+document.writeln("</script>");
+}}
+// PC_百度联盟 728*90 创建于 2016-11-24
+function ADg960_90(){
+if(IElet10 || GoogleAd){BackAd960_90();}else{
+document.writeln("<div style=\"margin:0 auto;height:90px;background:#ed3800;width:980px\">");
+document.writeln("<div style=\"width:125px;height:90px\" class=\"ldiv\"><a href=\"http://www3.060s.com/chinese/\"><img width=\"111px\" height=\"90px\" border=\"0\" alt=\"在线识字\" src=\"http://www3.060s.com/dzkb/3.gif\"></a></div>");
+document.writeln("<div style=\"width:733px;height:90px\" class=\"ldiv\">");
+document.writeln("<script type=\"text\/javascript\">\/*百度联盟 728*90 创建于 2016\/11\/25*\/var cpro_id = \"u2827204\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");
+document.writeln("<!-- 060s728 -->");
+document.writeln("<ins class=\"adsbygoogle\"");
+document.writeln("     style=\"display:inline-block;width:728px;height:90px\"");
+document.writeln("     data-ad-client=\"ca-pub-5651802458032715\"");
+document.writeln("     data-ad-slot=\"2525064245\"></ins>");
+document.writeln("<script>");
+document.writeln("(adsbygoogle = window.adsbygoogle || []).push({});");
+document.writeln("</script>");
+document.writeln("</div>");
+document.writeln("<div style=\"width:120px;height:90px\" class=\"ldiv\"><a href=\"http://new.060s.com/flash/flashfiles.php?class=%D1%A7%CF%B0%7C%D0%A1%D1%A7%D3%EF%CE%C4%7C%BA%BA%D3%EF%C6%B4%D2%F4%7C\"><img width=\"111px\" height=\"90px\" border=\"0\" alt=\"电子课本\" src=\"http://www3.060s.com/dzkb/4.gif\"></a></div>");
+document.writeln("</div>");
+}}
+//调用广告位PC_ADg300_250A
+//300*250图片
+function BackAd300_250tp()
+{
+if (AdCount<8){document.writeln("<script type=\"text\/javascript\">\/*PC_ADg300_250A 原生4图 文章页 右侧一 顶部 2016\/11\/18*\/var cpro_id = \"u2820983\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");AdCount=AdCount+1;}
+else {MyAd300_250A();}
+}
+//调用广告位PC_ADg300_250A
+//300*250 悬停
+function BackAd300_250xt(){
+if (AdCount<8){document.writeln("<script type=\"text\/javascript\">\/*PC_ADg300_250A 原生4图 文章页 右侧一 顶部 2016\/11\/18*\/var cpro_id = \"u2820983\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");AdCount=AdCount+1;}
+else {MyAd300_250B();}
+}
+//新加 960*90
+function BackAd960_90(){
+if (AdCount<8){document.writeln("<script type=\"text\/javascript\">\/*PC_Ad980_90 原生多图 顶部通栏2014-5-22*\/var cpro_id = \"u1564333\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");AdCount=AdCount+1;}
+else {MyAd960_90();}
+}
+//调用广告位PC_ADg300_250A
+//链接 标签云
+function BackAd300_250yun(){
+if (AdCount<8){document.writeln("<script type=\"text\/javascript\">\/*PC_ADg300_250A 原生4图 文章页 右侧一 顶部 2016\/11\/18*\/var cpro_id = \"u2820983\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/c.js\"><\/script>");AdCount=AdCount+1;}
+else {MyAd300_250C();}
+}
+
+
+function MyAd300_250A(){}
+function MyAd300_250B(){}
+function MyAd300_250C(){}
+function MyAd960_90(){}
+function MyAd336_280(){}
+
+////////
+var STuJia=0;//图加
+var BD_SHARE=0;//分享
+function AD_bottom(){
+if (STuJia==1) {document.writeln("<script type=\"text\/javascript\">\/*PC_图+ 2016-11-18*\/var cpro_id = \"u2821368\";<\/script><script type=\"text\/javascript\" src=\"http:\/\/cpro.baidustatic.com\/cpro\/ui\/i.js\"><\/script>");}
+if (BD_SHARE ==1) document.writeln("<script>window._bd_share_config={\"common\":{\"bdSnsKey\":{},\"bdText\":\"\",\"bdMini\":\"2\",\"bdPic\":\"\",\"bdStyle\":\"0\",\"bdSize\":\"16\"},\"share\":{}};with(document)0[(getElementsByTagName(\'head\')[0]||body).appendChild(createElement(\'script\')).src=\'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=\'+~(-new Date()/36e5)];</script>");
+}
+
+//右下浮动广告
+(function() {
+if (top.location.href=='http://www.060s.com/'){document.writeln('<a title="进入首页" id="toHome" href="http://www.060s.com/"></a><a style="display:none;" id="toTop" onclick="window.scrollTo(0,0);return false" title="返回顶部" target="_self" href="#"></a>');}
+else
+{
+//if (window.screen.width>1630){
+//document.writeln("<div id=\"PfLB300a\" style=\"display:block;clear:both; width:300px; height:270px; z-index:999999; overflow:hidden;bottom:2px;right:2px; position:fixed !important; _position:absolute; _top: expression( eval( document.documentElement.scrollTop + document.documentElement.clientHeight - this.offsetHeight - (parseInt(this.currentStyle.marginTop,10)||0) - (parseInt(this.currentStyle.marginBottom,10)||0) ) - (parseInt(this.currentStyle.bottom,10)||0) );\"> ");
+//document.writeln("</div>");
+document.writeln("<script type=\"text\/javascript\" src=\"http:\/\/new4.060s.com\/my_ad\/r_bottom.js\"><\/script>");
+//setTimeout("ShowAdDZ()",3000);
+//}
+//else if (window.screen.width>1245){
+//document.writeln('<div style="bottom: 5px;display: block;height:240px;margin: 0;overflow: hidden;position: fixed;right:5px;width: 100px;z-index:100;"><div style="text-align:center;font-size:12px;line-height:12px"><img src="http://wap.060s.com/ewm/shouji.png" width="100px" border="0" height="100px"> 手机版 <div id="space"></div><img src="http://wap.060s.com/ewm/weixin.png" width="100px" border="0" height="100px"> 微信关注 </div></div>');}
+}
+if (byID("myuser") != null) byID("myuser").innerHTML=get_user();
+window.onscroll=MoveDiv;
+})();
+function MoveDiv(){if (byID("toTop") == null) return;var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;var temp=byID("toTop").style.display;if (temp=="none" && scrollTop>100){byID("toTop").style.display="block";}else if(temp=="block" && scrollTop<=100){byID("toTop").style.display="none";}}
+function ShowAdDZ(){document.getElementById("PfLB300a").innerHTML ="<div style=\"width:300px;height:20px;color:#999\"><div style=\"float:left;width:100px\">广告</div><div style=\"float:right;width:36px;cursor:pointer;text-align:right;;color:#666\" onclick=\"byID('PfLB300a').style.display='none';\">关闭</div></div><div><iframe scrolling=\"no\" width=\"300\" height=\"250\" frameborder=\"0\" align=\"center,center\" src=\"http://new4.060s.com/my_ad/test212.html?"+top.location.href+"\" marginheight=\"0\" marginwidth=\"0\"></iframe></div>";}
+
+//document.urite()//代替document.write
+!function(){var w=this,n=w._fn_urite||'urite';w[n]?w[n](0,1):function(){var u,d=document,o=d.write,t=o,x=/^([\s\S]*?<\/script[^>]*>)([\s\S]*)$/i,l='<script type="text/ecmascript" src="',r='" urite-agent="1"></script>',s='',p=s,f=1;if(o.call)t=function(v){o.call(d,v);};t(l+'data:,_data_uri_useable=1'+r);function urite(v,_){if(!u)u=l+(w._data_uri_useable?'data:,'+n+'(0,1)':function(){var c=d.getElementsByTagName('script'),i=c.length,a=w._src_urite||n,h;while(i-->0){h=c[i].getAttribute('src');if(h&&h.indexOf(a)>=0)
+return encodeURI(h);}
+return a;}())+r;if(_){f=1,v=s+p,p=s='';if(v)t(v.replace(x,function(m,a,b,i,h){p=b;f=0;return a+u;}));}else{s+=v;if(f)f=0,t(u);}}
+w[n]=d[n]=urite;}();}();

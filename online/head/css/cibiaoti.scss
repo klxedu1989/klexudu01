@@ -1,0 +1,62 @@
+.cibiaoti{
+    height: 24px;
+    width: 100%;
+    .a-t-left{
+        height: 21px;
+        border-left:5px solid #00ab84;
+        width: 10px;
+        margin:2px 0px 1px 0px;
+        &.red{            
+            border-left:5px solid #ea5550;
+        }    
+    }
+    .s-title{
+            font-size:24px;
+            color:#00ab84;
+            font-weight:700;
+            &.red{
+                color:#ea5550;
+            }
+            &:hover{
+                color:#cc0000;
+            }
+
+        }
+    em{
+        padding-left:10px;
+        color:#ccc;
+        font-size:15px;
+        margin:6px 0px 2px 0px;
+    }
+    .s-s-title{
+        padding-left:10px;        
+        margin:11px 0px 1px 0px;        
+    }
+    .more{
+        padding-left:10px;        
+        margin:11px 0px 1px 0px;
+        i{
+            font-style:normal;
+            color:#ccc;
+        } 
+    }
+    .s-s-title-a{
+            padding-left:10px;
+            font-size:12px;
+            color:#00ab84;
+            opacity:0.6;
+            &.red{
+                color:#ea5550;
+            }
+            &:hover{
+                color:#cc0000;
+            }
+        }
+}
+.border-b{
+        width: 100%;
+        border-bottom:3px solid #deefe7;
+        &.red{
+          border-bottom:3px solid #fce2da;  
+        }
+    }

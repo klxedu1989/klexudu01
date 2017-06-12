@@ -1,0 +1,82 @@
+var IframeOnClick = {
+             resolution: 200,
+             iframes: [],
+             interval: null,
+             Iframe: function() {
+              	this.element = arguments[0];
+              	this.cb = arguments[1];
+              	this.hasTracked = false;
+             },
+             track: function(element, cb) {
+              	this.iframes.push(new this.Iframe(element, cb));
+             },
+			 track1: function(element, cb) {
+              	this.iframes.push(new this.Iframe(element, cb));
+				if (!this.interval) {  
+                	var _this = this;  
+               		this.interval = setInterval(function() { _this.checkClick(); }, this.resolution);  
+            	} 
+             },
+
+             doit:function(){
+                 setInterval(function() { IframeOnClick.checkClick(); }, this.resolution);
+             },
+             checkClick: function() {
+             if (document.activeElement) {
+               	var activeElement = document.activeElement;
+               	for (var i in this.iframes) {
+                	if (activeElement === this.iframes[i].element) { // user is in this Iframe
+                 		if (this.iframes[i].hasTracked == false) {
+							this.iframes[i].cb.apply(activeElement, []);
+                  			this.iframes[i].hasTracked = true;
+                 		}
+                	} else {
+                 		this.iframes[i].hasTracked = false;
+
+                	}
+
+               	}
+
+             }
+
+           }
+
+        };
+	
+IframeOnClick.track1(document.getElementById("myop"), function() { 
+   	setTimeout("document.getElementById('op_all').style.display='none';",2000);
+  	setTimeout("document.getElementById('op_hide').style.display='none';",1000);  
+	
+   	//var queryString="a=ajaxip&url="+window.location.href;
+	//$.ajax({type: "get",url: "/index.php",data: queryString,success: function(data){},error: function(){}});
+ });
+
+window.onload = function (){
+
+       var allframe =  document.getElementsByTagName('iframe');
+       for(i=0; i<allframe.length; i++) {
+            IframeOnClick.track(allframe[i], function() {
+         		//监听后你想做的
+				//alert(allframe[i].attributes["id"].nodeValue);
+				//setTimeout("document.getElementById('op_all').style.display='none';",2000);
+   				//setTimeout("document.getElementById('op_hide').style.display='none';",1000);
+				//alert(window.location.href);
+				var queryString="c=tianqi&a=ajaxip&url="+window.location.href;
+				$.ajax({type: "get",url: "/index.php",data: queryString,success: function(data){},error: function(){}});
+      		});
+
+        }
+		
+	   /*
+	   var allframe =  document.getElementById('eiframe');
+	   IframeOnClick.track(allframe, function() {
+         	//监听后你想做的
+			//ILData[0]  //js获取ip
+			var queryString="a=ajaxip&url="+window.location.href;
+			$.ajax({type: "get",url: "/index.php",data: queryString,success: function(data){},error: function(){}});
+       });
+	   */
+       IframeOnClick.doit();
+	   
+		
+}
